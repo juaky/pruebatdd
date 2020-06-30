@@ -1,13 +1,16 @@
 class Camio(object):
+    def __init__(self,):
+        self.vacas = {}
+
     def add(self,vaca):
-        pass
+        self.vacas[vaca.getNom()]=vaca
 
-    def substract(self):
-        pass
+    def substract(self,vaca):
+        del self.vacas[vaca.getNom()]
 
-    def quantitatLlet(self):
-        pass
-
-    def controlaPes(self):
-        pass
+    # def quantitatLlet(self):
+    #     pass
+    #
+    # def controlaPes(self):
+    #     pass
 

@@ -9,3 +9,6 @@ class Vaca(object):
 
     def getNom(self):
         return self.nom
+
+    def getPes(self):
+        return self.pes

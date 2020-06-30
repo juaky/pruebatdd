@@ -6,7 +6,10 @@ class Camio(object):
         self.vacas[vaca.getNom()]=vaca
 
     def substract(self,vaca):
-        del self.vacas[vaca.getNom()]
+        try:
+            del self.vacas[vaca.getNom()]
+        except:
+            print ("No existe esa vaca")
 
     # def quantitatLlet(self):
     #     pass

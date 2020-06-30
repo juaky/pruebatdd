@@ -1,5 +1,5 @@
 class Camio(object):
-    def add(self):
+    def add(self,vaca):
         pass
 
     def substract(self):
